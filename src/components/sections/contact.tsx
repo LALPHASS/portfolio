@@ -78,7 +78,7 @@ export function Contact() {
             Contactez-moi
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Vous avez un projet en tête ? N'hésitez pas à me contacter pour en discuter
+            Vous avez un projet en tête ? N&apos;hésitez pas à me contacter pour en discuter
           </p>
         </AnimatedSection>
       </div>
@@ -159,7 +159,7 @@ export function Contact() {
                     animate={{ opacity: 1, y: 0 }}
                     className="text-destructive text-center"
                   >
-                    Erreur lors de l'envoi. Veuillez réessayer.
+                    Erreur lors de l&apos;envoi. Veuillez réessayer.
                   </motion.p>
                 )}
               </form>
@@ -177,7 +177,7 @@ export function Contact() {
                 </h3>
                 
                 <div className="space-y-6">
-                  {SOCIAL_LINKS.map((link, index) => {
+                  {SOCIAL_LINKS.map((link) => {
                     const IconComponent = getIconComponent(link.icon)
                     return (
                       <motion.button
@@ -214,7 +214,7 @@ export function Contact() {
                 </h3>
                 <p className="text-muted-foreground">
                   Je suis actuellement disponible pour de nouveaux projets et collaborations. 
-                  N'hésitez pas à me contacter pour discuter de vos besoins.
+                  N&apos;hésitez pas à me contacter pour discuter de vos besoins.
                 </p>
               </CardContent>
             </Card>

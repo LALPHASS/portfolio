@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import { Menu, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { ThemeToggle } from '@/components/common/theme-toggle'
-import { NAVIGATION_SECTIONS, PERSONAL_INFO } from '@/lib/constants'
+import { NAVIGATION_SECTIONS } from '@/lib/constants'
 import { scrollToSection, cn } from '@/lib/utils'
 
 export function Navbar() {

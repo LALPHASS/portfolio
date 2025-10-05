@@ -1,7 +1,13 @@
-'use client'
+"use client";
 
-import { ThemeProvider as NextThemesProvider } from 'next-themes'
-import { type ThemeProviderProps } from 'next-themes/dist/types'
+import { ThemeProvider as NextThemesProvider } from "next-themes";
+import { ReactNode } from "react";
+
+interface ThemeProviderProps {
+  children: ReactNode;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  [key: string]: any;
+}
 
 export function ThemeProvider({ children, ...props }: ThemeProviderProps) {
   return (
@@ -14,5 +20,5 @@ export function ThemeProvider({ children, ...props }: ThemeProviderProps) {
     >
       {children}
     </NextThemesProvider>
-  )
+  );
 }

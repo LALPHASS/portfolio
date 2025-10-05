@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { Github, Linkedin, Mail } from 'lucide-react'
-import { PERSONAL_INFO, SOCIAL_LINKS } from '@/lib/constants'
+import { SOCIAL_LINKS } from '@/lib/constants'
 
 export function Footer() {
   const currentYear = new Date().getFullYear()

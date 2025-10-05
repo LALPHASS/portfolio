@@ -15,7 +15,7 @@ export function Skills() {
             Mes Compétences
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Expertise technique dans les domaines de l'IA et du développement
+            Expertise technique dans les domaines de l&apos;IA et du développement
             web
           </p>
         </AnimatedSection>
